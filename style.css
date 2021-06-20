@@ -1,0 +1,206 @@
+nav  {
+	display: flex;
+	justify-content: space-around;
+	padding: 2%;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+}
+nav a:hover {
+	font-size: 20px;
+	color: darkblue;
+}
+header {
+	background-image: url(polygons.png);
+	padding: 10%;
+	width: 70%;
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+header a {
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+body {
+	margin: 0;
+}
+.company {
+	margin: auto;
+	width: 90%;
+}
+.company_flex {
+	display: flex;
+	align-items: center;
+}
+.company_flex img {
+	width: 30%;
+}
+.company h2 {
+	text-align: center;
+}
+.members {
+
+}
+.members h2, .members p {
+	text-align: center;
+}
+.members_flex {
+	display: flex;
+}
+.members_flex img {
+	width: 100%;
+}
+.members_flex p {
+	text-align: left;
+}
+.member {
+	margin: 1%;
+	box-shadow: 0 0 5px gray;
+	padding: 1%;
+}
+.members a {
+	background-color: #0a7afa;
+	width: 100%;
+	display: block;
+	border-radius: 10px;
+	text-decoration: none;
+	background-color: pink;
+	color: red;
+	text-align: center;
+}
+.profesion {
+	color: gray;
+}
+.cost {
+	text-align: center;
+	background-color: gray;
+	color: white;
+}
+ul {
+	background-color: white;
+	color: black;
+	width: 30%;
+	list-style-type: none;
+	padding: 0;
+}
+li {
+	border-bottom: solid black 1px;
+	padding: 2%;
+}
+.base {
+	background-color: black;
+	color: white;
+}
+.buy {
+	background-color: silver;
+
+}
+.buy a {
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	padding: 5px;
+	display: block;
+	width: 50px;
+	margin: auto;
+	text-decoration: none;
+}
+.pro {
+	background-color: blue;
+	color: white;
+}
+.site {
+	background-color: silver;
+}
+.site a {
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	padding: 5px;
+	display: block;
+	width: 50px;
+	margin: auto;
+	text-decoration: none;
+}
+.premeum {
+	background-color: black;
+	color: white;
+}
+.good {
+	background-color: silver;
+}
+.good a {
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	padding: 5px;
+	display: block;
+	width: 50px;
+	margin: auto;
+	text-decoration: none;
+}
+.cost_flex {
+	display: flex;
+	justify-content: space-around;
+}
+.day {
+	color: grey;
+}
+.money {
+	font-size: 23px;
+	font-weight: bold;
+}
+span {
+	font-weight: bold;
+}
+.contacts h2 {
+	text-align: center;
+}
+.write_us {
+	text-align: center;
+}
+input {
+	display: block;
+	width: 100%;
+	margin: 5px;
+	border: none;
+	padding: 5px;
+}
+button {
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+	display: block;
+	margin: 15px auto 0;
+	text-decoration: none;
+	padding: 10px;
+}
+.contacts {
+	background-color: #e6e6e8;
+	padding: 2%;
+}
+.message {
+	margin-top: 0;
+}
+.info1,.info2,.info3 {
+	padding-left: 28px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.info1 {
+	background-image: url(address.png);
+}
+.info2 {
+	background-image: url(phone.png);
+}
+.info3 {
+	background-image: url(mail.png);
+}
